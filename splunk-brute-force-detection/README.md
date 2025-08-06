@@ -72,7 +72,7 @@ This shows the top IPs attempting failed logins—revealing the attacker.
 3. Dashboard visualizing brute-force pattern![](./screenshots/Dashboard2.png)
 4. Real-time alert configuration![](./screenshots/Real-time-alert-config.png)
 5. Universal Forwarder inputs.conf config![](./screenshots/Inputconfig.png)
-6. Confirmed Event ID detection![](./screenshots/hydra-attack.png)
+6. Confirmed Event ID detection
 
 ---
 
