@@ -1,3 +1,4 @@
+
 # 🛡️ SOC Home Lab Project: Brute-Force Detection using Splunk
 
 ## 📌 Project Title
@@ -67,21 +68,37 @@ This shows the top IPs attempting failed logins—revealing the attacker.
 
 ## 📸 Screenshots
 
-1. Kali Hydra attack command in the terminal![](./screenshots/Kali-bruteforce-attack.png)
-2. Splunk log search results (Event ID 4625)![](./screenshots/Found-logs.png)
-3. Dashboard visualizing brute-force pattern![](./screenshots/Dashboard2.png)
-4. Real-time alert configuration![](./screenshots/Real-time-alert-config.png)
-5. Universal Forwarder inputs.conf config![](./screenshots/Inputconfig.png)
-6. Confirmed Event ID detection
+1. Kali Hydra attack command in the terminal  
+   ![](./screenshots/Kali-bruteforce-attack.png)
+
+2. Splunk log search results (Event ID 4625)  
+   ![](./screenshots/Found-logs.png)
+
+3. Confirmed Event ID 4625 with attacker IP address  
+   ![](./screenshots/Source-address.png)
+
+4. Log details showing failed login message and account info  
+   ![](./screenshots/Log-ID.png)
+
+5. Dashboard visualizing brute-force pattern  
+   ![](./screenshots/Dashboard2.png)
+
+6. Real-time alert configuration  
+   ![](./screenshots/Real-time-alert-config.png)
+
+7. Universal Forwarder `inputs.conf` config  
+   ![](./screenshots/Inputconfig.png)
+
+8. ✅ Real-time alert triggered in Splunk  
+   ![](./screenshots/Alert.png)
 
 ---
 
 ## 🧩 Troubleshooting Experience
 
-* Connection failed due to **third-party firewall (Avast)** → Solved by adding an inbound rule on TCP 9997
-* Missing `inputs.conf` on forwarder → Manually created for Event Logs
-* Splunk Forwarder service was stopped → Started and set to auto-start
-
+* Connection failed due to **third-party firewall (Avast)** → Solved by adding an inbound rule on TCP 9997  
+* Missing `inputs.conf` on forwarder → Manually created for Event Logs  
+* Splunk Forwarder service was stopped → Started and set to auto-start  
 
 ---
 
@@ -106,12 +123,6 @@ This shows the top IPs attempting failed logins—revealing the attacker.
 
 ---
 
-
-
-
-
-
 ## 🙌 Author
 
 * **Hashim KM** | Cybersecurity Enthusiast
-
