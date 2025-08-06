@@ -67,8 +67,8 @@ This shows the top IPs attempting failed logins—revealing the attacker.
 
 ## 📸 Screenshots To Include
 
-1. Kali Hydra attack command in terminal 
-2. Splunk log search results (Event ID 4625)
+1. Kali Hydra attack command in the terminal: ./screenshots/1.kali bruteforce attack.png
+2. Splunk log search results (Event ID 4625)  ./screenshots/3.found logs.png
 3. Dashboard visualizing brute-force pattern
 4. Real-time alert configuration
 5. Universal Forwarder inputs.conf config
