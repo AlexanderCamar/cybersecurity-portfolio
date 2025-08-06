@@ -65,14 +65,14 @@ This shows the top IPs attempting failed logins—revealing the attacker.
 
 ---
 
-## 📸 Screenshots To Include
+## 📸 Screenshots
 
-1. Kali Hydra attack command in the terminal: ./screenshots/1.kali bruteforce attack.png
-2. Splunk log search results (Event ID 4625)  ./screenshots/3.found logs.png
-3. Dashboard visualizing brute-force pattern
-4. Real-time alert configuration
-5. Universal Forwarder inputs.conf config
-6. Confirmed Event ID detection
+1. Kali Hydra attack command in the terminal![](./screenshots/hydra-attack.png)
+2. Splunk log search results (Event ID 4625)![](./screenshots/hydra-attack.png)
+3. Dashboard visualizing brute-force pattern![](./screenshots/hydra-attack.png)
+4. Real-time alert configuration![](./screenshots/hydra-attack.png)
+5. Universal Forwarder inputs.conf config![](./screenshots/hydra-attack.png)
+6. Confirmed Event ID detection![](./screenshots/hydra-attack.png)
 
 ---
 
