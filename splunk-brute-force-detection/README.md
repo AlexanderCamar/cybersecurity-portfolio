@@ -106,26 +106,7 @@ This shows the top IPs attempting failed logins—revealing the attacker.
 
 ---
 
-## 🚀 How to Upload to GitHub
 
-1. Create a new GitHub repository: `SOC-BruteForce-Splunk`
-2. Add this README.md content
-3. Upload screenshots to `images/` directory
-4. Commit with message: `Initial SOC Project Upload`
-
-Example repo structure (even though you’re using a single README):
-
-```
-SOC-BruteForce-Splunk/
-├── README.md
-└── images/
-    ├── attack_terminal.png
-    ├── splunk_detection.png
-    ├── dashboard.png
-    └── alert_config.png
-```
-
----
 
 
 
